@@ -1,1 +1,2 @@
-This project is for a LED Matrix emulator to later be used with raspberry pi code for an adafruit led matrix
+This project is for messing around with a Raspberry pi and an LED Matrix
+
