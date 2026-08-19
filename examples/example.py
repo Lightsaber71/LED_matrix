@@ -26,9 +26,5 @@ for i in range(1000):
 		for y in range(ROWS):
 			canvas.SetPixel(x, y, *color)
 			print(f"{i:>4} Setting color {color}")
-			# for color,name in colors:
-			# 	canvas.SetPixel(x, y, *color)
-			# 	
-			# 	time.sleep(.1)
 
 print("done")
