@@ -31,6 +31,8 @@ class MatrixStringParser():
     def get_current_word_width(self):
         word = self.get_current_word()
         word_width = 0
+        if word is None:
+            return 0
         for char in word:
             word_width = word_width + self._font.CharacterWidth(ord(char))
         return word_width
